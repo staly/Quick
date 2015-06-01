@@ -1,0 +1,29 @@
+------------------------------
+Quick.Cms by OpenSolution.org
+www.opensolution.org
+------------------------------
+Skin webstyle002
+------------------------------
+
+License
+------------------------------
+Skin was adapted to Quick.Cms under license:
+http://opensolution.org/licenses.html
+
+Requirements
+------------------------------
+Quick.Cms v6.0
+
+How to install
+------------------------------
+
+step 1) copy directory "webstyle002" to Quick.Cms "templates/" directory 
+
+step 2) copy missing .php files ( _lists.php, footer.php, header.php, page.php  ) and .css files ( oldie.css )  from templates/default skin directory to "templates/webstyle002" directory.
+
+step 3) edit database/config.php and change $config['skin'] variable to webstyle002 ( $config['skin'] = 'webstyle002'; )
+
+step 4) go to the admin panel remove all default sliders and add a new slider with the image "webstyle002_slider" from the skins zip file.
+
+Responsive:
+If you want webstyle002 skin to be responsive edit header.php file and add <meta name="viewport" content="width=device-width, initial-scale=1" /> to other meta html elements.

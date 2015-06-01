@@ -1,0 +1,114 @@
+------------------------------
+googleMaps by OpenSolution.org
+------------------------------
+
+Basic information
+------------------------------
+1. The plugin is compatible with Quick.Cms v6.x. We do not guarantee that this plugin is compatible with other versions or plugins.
+
+2. Do you have questions or problem with this plugin? Visit: http://opensolution.org/forum/
+
+License
+------------------------------
+Copyrights belong to OpenSolution.org. The plugin is free. OpenSolution does not give any warranty for the plugin nor does it take any responsibility for any damage it might cause.
+You can: 
+- Use the plugin for any purpose including commercial sites use
+You can't: 
+- Share or make the whole or parts of the plugin's PHP code availible to third parties
+- Remove the plugin author info
+Any of these conditions CAN BE WAIVED if you get permission from the copyright holder. Contact OpenSolution to get permissions or more information: http://opensolution.org/contact.html
+
+How to use
+------------------------------
+step 1) Go to "Settings", select "Pages" tab and choose a page that will hold the Google map
+step 2) Go to "Settings", select "Options" tab and define Address for Google Maps ( Country, City, Street )
+
+How to install
+------------------------------
+step 1) Edit file: templates/admin/settings.php
+
+Find code and remove the comment tags
+<!-- <li id="options"><a href="#"><?php echo $lang['Options']; ?></a></li> -->
+
+step 2) Edit file: templates/admin/settings.php
+Find code:
+<!-- tab pages -->
+
+Add above:
+<li>
+  <label for="sGoogleMapsPage"><?php echo $lang['Google_map_page']; ?></label>
+  <select name="google_map_page" id="sGoogleMapsPage">
+    <option value=""><?php echo $lang['none']; ?></option>
+    <?php echo $oPage->listPagesSelectAdmin( $config['google_map_page'] ); ?>
+  </select>
+</li>
+
+step 3) Edit file: templates/admin/settings.php
+
+Find code and enclose all <li> tags above with the comment tag <!-- -->:
+<!-- tab options -->
+
+Add above:
+<li>
+  <label for="sAddress"><?php echo $lang['Address_Google_Maps'] ; ?></label>
+  <input type="text" name="google_map_address" size="30" id="sAddress" value="<?php echo ( isset( $config['google_map_address'] ) ? $config['google_map_address'] : null ); ?>" />
+</li>
+
+step 4) Edit file: database/lang_en.php
+
+Find code:
+?>
+
+Add above:
+$lang['Google_map_page'] = "Page with google map";
+$lang['Address_Google_Maps'] = "Address for Google Maps";
+
+step 5) Edit file: database/lang_pl.php (only for polish users)
+
+Find code:
+?>
+
+Add above:
+$lang['Google_map_page'] = "Strona z mapą google";
+$lang['Address_Google_Maps'] = "Adres dla Google Maps";
+
+step 6) Edit file: database/config_en.php
+
+Find code:
+?>
+
+Add above:
+/*
+* Google Maps address information
+*/
+$config['google_map_page'] = "";
+$config['google_map_address'] = "";
+
+step 7) Edit file: database/config_pl.php  ( if exists ) 
+
+Find code:
+?>
+
+Add above:
+/*
+* Strona i addresss Google Maps 
+*/
+$config['google_map_page'] = "";
+$config['google_map_address'] = "";
+
+step 8) Edit file: templates/default/page.php
+Find code:
+// full description
+
+Add below:
+if( !empty( $config['google_map_page'] ) && $config['google_map_page'] == $aData['iPage'] ){
+  echo '<div class="googlemap"><iframe src="https://maps.google.pl/maps?q='.( !empty( $config['google_map_address'] ) ? $config['google_map_address'] : null ).'&z=13&output=embed"></iframe></div>';
+}
+
+step 9) Edit file: templates/default/style.css
+Find code:
+/* PLUGINS */
+
+Add below:
+/* Display option: GOOGLE MAPS */
+#page .googlemap iframe{width:100%;height:350px;}

@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+  <title>Pobierz darmowe dodatki do Quick.Cms</title>
+  <meta name="Description" content="Darmowe dodatki (wtyczki) do Quick.Cms i Quick.Cms.Ext" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="Author" content="OpenSolution.org" />
+
+  <link rel="stylesheet" href="/os-new/css/_main3.1427959016.css" />
+  <link rel="stylesheet" href="/download/templates/style-new.1430744787.css" />
+  <link rel="stylesheet" href="/os-new/css/quickbox.css" />
+  <link rel="stylesheet" href="/os-new/plugins/login-popup.css" />
+  <link rel="stylesheet" href="/os-new/css/quickslider.1424176647.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--[if lt IE 9]>
+  <script src="http://opensolution.org/os-new/core/html5shiv.js"></script>
+  <![endif]-->
+  <script src="http://opensolution.org/os-new/core/common.js"></script>
+  <script src="http://opensolution.org/os-new/core/jquery-1.10.2.min.js"></script>
+  <script src="http://opensolution.org/os-new/core/quick.box.js"></script>
+  <script src="http://opensolution.org/os-new/core/quick.slider.js"></script>
+  <script src="/os-new/plugins/login-popup.js"></script>
+  <script src="core/common.js"></script>
+  <script>
+    $(function(){
+      backToTop();
+    });
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-111592-2']);
+    _gaq.push(['_setDomainName', 'opensolution.org']);
+    _gaq.push(['_setCustomVar', 1, 'qfNick', 'staly', 1]);    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    simpleNotice( "OpenSolution.org korzysta z plikÃ³w cookies. KorzystajÄ…c ze strony wyraÅ¼asz zgodÄ™ na uÅ¼ywanie cookies zgodnie z aktualnymi ustawieniami przeglÄ…darki.", "Zamknij" );
+    downloadRulesNotice( 'Przed skorzystaniem z dziaÅ‚u <b>pobierz</b> zapoznaj siÄ™ z <a href="/polityka-prywatnosci-i-regulamin,pl,201.html">regulaminem &raquo;</a>', "Zamknij" )
+  </script>
+
+</head>
+
+<body class="langPl quick-cms-quick-cms-ext-plugins">
+  <nav class="skiplink"><a href="#body" accesskey="2">PomiÅ„ nawigacjÄ™</a></nav>
+  <section id="head">
+    <header class="head1">
+      <nav>
+        <div class="logo"><a href="/"><img src="http://opensolution.org/os-new/images/logo_os_70_t.png" alt="OpenSolution.org"></a></div>
+        
+  <div id="countdownContainer">
+    <script type="text/javascript" src="/os/core/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="/os/core/jquery.countdown-pl.js"></script>
+    <link rel="stylesheet" href="/os/templates/jquery.countdown.css" />
+      
+    <script type="text/javascript">
+    jQuery(function () {
+      var oUntilDate = new Date();
+      oUntilDate = new Date( 2015, 05-1, 15, 14, 00, 00 );
+      jQuery('#defaultCountdown').countdown({until: oUntilDate, serverSync: serverTime
+        ,layout: '<a href="/najblizsze-szkolenie.html"><span class="countdown_row countdown_show4">' + 
+          '<span class="countdown_section">' + 
+            '<em>{dl}</em>' + 
+            '<span class="countdown_amount">{dnn}</span>' + 
+          '</span>' + 
+          '<span class="countdown_section">' + 
+            '<em>{hl}</em>' + 
+            '<span class="countdown_amount">{hnn}</span>' + 
+          '</span>' + 
+          '<span class="countdown_section">' + 
+            '<em>{ml}</em>' + 
+            '<span class="countdown_amount">{mnn}</span>' + 
+          '</span>' + 
+          '<span class="countdown_section">' + 
+            '<em>{sl}</em>' + 
+            '<span class="countdown_amount">{snn}</span>' + 
+          '</span>' + 
+        '</span></a>'
+      });
+    });
+    function serverTime() { 
+      var time = null; 
+      jQuery.ajax({url: '/os/plugins/time.php', 
+        async: false, dataType: 'text', 
+        success: function(text) { 
+          time = new Date(text); 
+        }, error: function(http, message, exc) { 
+          time = new Date(); 
+      }}); 
+      return time; 
+    }
+    </script>
+
+    <div class="label"><a href="/najblizsze-szkolenie.html" style="font-size:0.95em;">Szkolimy webmasterÃ³w HTML5, CSS3 i jQuery &raquo;</a></div>  <div id="defaultCountdown"></div>
+    
+  </div>
+
+          <div class="user">
+                      <ul class="logged-links">
+              <li class="profile"><a href="/profil.html"><em class="rwd-red">twÃ³j </em>profil</a></li>
+                            <li class="logout"><a href="/wyloguj.html">wyloguj</a></li>
+            </ul>
+            <div class="avatar rwd-red"><a href="/uzytkownik.html?sUser=staly"><img src="/avatar.php?sNick=staly" alt="Avatar" /></a></div>
+                  </div>
+      </nav>
+    </header>
+    <header class="head2">
+      <nav>
+        <div class="lang">
+          <a href="./" tabindex="1" class="selected"><img src="http://opensolution.org/os-new/images/flag_pl.png" alt="PL"></a>
+          <a href="home.html" tabindex="2"><img src="http://opensolution.org/os-new/images/flag_en.png" alt="EN"></a>
+        </div>
+                <ul id="os-main-menu">
+          <li class="detailed qcms"><a href="#">Quick.Cms</a>
+            <ul>
+              <li class="basics"><strong>Informacje</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/system-cms-quick-cms.html">Quick.Cms</a></li>
+                  <li><a href="http://opensolution.org/profesjonalny-system-cms-quick-cms-ext.html">Quick.Cms.Ext</a></li>
+                  <li><a href="http://opensolution.org/porownanie-systemow-quick.cms-vs-quick.cms.ext.html">Quick.Cms vs Quick.Cms.Ext</a></li>
+                </ul>
+              </li>
+              <li class="check"><strong>Poznaj system</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/download/"><b>Pobierz Quick.Cms</b></a></li>
+                  <li><a href="http://demo.opensolution.org/Quick.Cms.Ext/?sLanguage=pl">SprawdÅº demo Quick.Cms.Ext</a></li>
+                  <li><a href="https://opensolution.org/zamow-oprogramowanie.html">ZamÃ³w Quick.Cms.Ext</a></li>
+                </ul>
+              </li>
+              <li class="find-out"><strong>Przekonaj siÄ™</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/co-wyroznia-nasz-system-cms.html">Co wyrÃ³Å¼nia nasz CMS</a></li>
+                  <li><a href="http://opensolution.org/dlaczego-quick-cms-ext.html">7 powodÃ³w aby wybraÄ‡ Quick.Cms.Ext</a></li>
+                  <li><a href="http://opensolution.org/popularne-zastosowania-systemu-cms.html">Popularne zastosowania</a></li>
+                  <li><a href="http://opensolution.org/opinie-uzytkownikow.html">Opinie uÅ¼ytkownikÃ³w</a></li>
+                </ul>
+              </li>
+              <li class="webmaster"><strong>Informacje dla webmastera</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/dlaczego-nasz-system-cms.html">Nasz system vs inne systemy</a></li>
+                  <li><a href="http://opensolution.org/obalamy-mity-o-quick-cms.html">Obalamy mity!</a></li>
+                  <li><a href="http://opensolution.org/opinie-o-quick-cms-ext.html">Opinie webmasterÃ³w o Quick.Cms.Ext</a></li>
+                  <li><a href="http://opensolution.org/licencje.html">Licencje naszych programÃ³w</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="qc detailed"><a href="#">Quick.Cart</a>
+            <ul>
+              <li class="basics"><strong>Informacje</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/sklep-internetowy-quick-cart.html">Quick.Cart</a></li>
+                  <li><a href="http://opensolution.org/profesjonalne-oprogramowanie-sklepu-internetowego-quick-cart-ext.html">Quick.Cart.Ext</a></li>
+                  <li><a href="http://opensolution.org/quick.cart_edycje,pl,9.html">Quick.Cart vs Quick.Cart.Ext</a></li>
+                </ul>
+              </li>
+              <li class="check"><strong>Poznaj system</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/download/"><b>Pobierz Quick.Cart</b></a></li>
+                  <li><a href="http://demo.opensolution.org/Quick.Cart.Ext/?sLanguage=pl">SprawdÅº demo Quick.Cart.Ext</a></li>
+                  <li><a href="https://opensolution.org/zamow-oprogramowanie.html">ZamÃ³w Quick.Cart.Ext</a></li>
+                </ul>
+              </li>
+              <li class="find-out"><strong>Przekonaj siÄ™</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/co-wyroznia-nasze-oprogramowanie-sklepu-internetowego.html">Co wyrÃ³Å¼nia nasze programy</a></li>
+                  <li><a href="http://opensolution.org/dlaczego-quick-cart-ext.html">8 powodÃ³w aby wybraÄ‡ Quick.Cart.Ext</a></li>
+                  <li><a href="http://opensolution.org/popularne-zastosowania-programu-sklepu-internetowego.html">Popularne zastosowania</a></li>
+                  <li><a href="http://opensolution.org/opinie-uzytkownikow.html">Opinie uÅ¼ytkownikÃ³w</a></li>
+                </ul>
+              </li>
+              <li class="webmaster"><strong>Informacje dla webmastera</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/dlaczego-nasze-oprogramowanie-sklepu-internetowego.html">Nasz system vs inne systemy</a></li>
+                  <li><a href="http://opensolution.org/obalamy-mity-o-quick-cart.html">Obalamy mity!</a></li>
+                  <li><a href="http://opensolution.org/opinie-partnerow.html">Opinie webmasterÃ³w</a></li>
+                  <li><a href="http://opensolution.org/licencje.html">Licencje naszych programÃ³w</a></li>
+                </ul>
+              </li>
+            </ul>          
+          </li>
+          <li class="help"><a href="#">Pomoc</a>
+            <ul>
+              <li><a href="http://opensolution.org/docs/">Dokumentacja - CMS</a></li>
+              <li><a href="http://opensolution.org/Quick.Cart/docs/">Dokumentacja - CART</a></li>
+              <li><a href="http://opensolution.org/poradnik,pl,202.html">Poradnik</a></li>
+              <li><a href="http://opensolution.org/forum/">Forum dyskusyjne</a></li>
+              <li><a href="http://opensolution.org/support/">Wsparcie dla edycji EXT</a></li>
+            </ul>
+          </li>
+          <li class="services"><a href="#">UsÅ‚ugi</a>
+            <ul>
+              <li><strong>Nasze usÅ‚ugi</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/profesjonalny-system-cms-quick-cms-ext.html">Quick.Cms.Ext</a></li>
+                  <li><a href="http://opensolution.org/profesjonalne-oprogramowanie-sklepu-internetowego-quick-cart-ext.html">Quick.Cart.Ext</a></li>
+                  <li><a href="http://opensolution.org/wsparcie-techniczne.html">Wsparcie techniczne</a></li>
+                  <li><a href="http://opensolution.org/szkolenia.html">Szkolenia webmasterÃ³w</a></li>
+                </ul>
+              </li>
+              <li><strong>UsÅ‚ugi partnerÃ³w</strong>
+                <ul>
+                  <li><a href="http://opensolution.org/partnerzy-opensolution.html">Tworzenie stron i sklepÃ³w</a></li>
+                  <li><a href="http://opensolution.org/partnerzy-modyfikacje.html">Modyfikacje i programiÅ›ci</a></li>
+                  <li><a href="http://opensolution.org/partnerzy-reklama.html">Reklama i pozycjonowanie</a></li>
+                  <li><a href="http://opensolution.org/partnerzy-hosting.html">Hosting i domeny</a></li>
+                  <li><a href="http://opensolution.org/zlec-audyt-prawny-swojego-sklepu-za-darmo,pl,1067.html">Regulaminy i GIODO</a></li>
+                  <li><a href="http://opensolution.org/partnerzy-inne.html">Inne usÅ‚ugi</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="partners"><a href="#">WspÃ³Å‚praca</a>
+            <ul class="right">
+              <li><a href="http://opensolution.org/oferta-partnerska.html">Oferta dla webmasterÃ³w</a></li>
+              <li><a href="http://opensolution.org/dolacz-do-grona-partnerow.html">DoÅ‚Ä…cz do spoÅ‚ecznoÅ›ci</a></li>
+              <li><a href="http://opensolution.org/szkolenia.html">Szkolenia webmasterÃ³w</a></li>
+              <li><a href="http://opensolution.org/opinie-partnerow.html">Opinie partnerÃ³w</a></li>
+            </ul>          
+          </li>
+        </ul>
+        <script>
+        $( function(){
+          $('#os-main-menu > li > a').click(function(e){
+            e.preventDefault();
+            $(this).find('ul').show();
+          });
+        });
+        </script>      </nav>
+    </header>
+  </section>
+  <section id="navigation"><nav class="path"><a href="./">Pobierz</a>&raquo; Quick.Cms, Quick.Cms.Ext - Dodatki</nav></section>
+  <section id="download">
+    <div class="inner">
+<h1>Quick.Cms, Quick.Cms.Ext - Dodatki</h1>PK    ¥N'F            
+   templates/PK    ¨N'F               templates/default/PK    µN'F               templates/default/img/PK   Åk˜BÙì»â‘  Œ  %   templates/default/img/back_to_top.pngŒsó‰PNG
+
+   IHDR   0   F   Šy[   bKGD ÿ ÿ ÿ ½§“   	pHYs     šœ   tIMEİ	¦Şş  IDAThŞíYMLWÿ½7ãqñåJ›ZÔ"ˆH=®%¤Ş¢VbÙ^–¨•-=¶{Øî%=–æè­TrÉæ‚ÔˆÓVBb/»#‡¸Dh‚ù(M(_M‚gŞÇö=kpüIHÚJû¤3Ã›÷~¿ÿ÷ÿøÿ¨<8ça!DN‘ãœ‡Wà=Ï3ÆrŒ1©®œçy¿®ëöy—ó<O–]9×uûÎ{?r‹œœŒB ´V™r(¥L]¸paé7GàéÓ§õÀŸ"qñâÅ¥ßÇqŞ0Ó ø	 “¡PèŞ¯NàøøøÏ
+üYÆdKKËí_ÀÑÑÑ‹€/‘‡Ã·_9ÃÃÃ¯ L“M·¶¶~úÊüòË/ß˜<çˆ8ÓÖÖvã¥Øßßo¼6¯†çwttÜx)vvvÂ*L^ihaBf:;;o ÀŞŞŞ·RÊFIÜ—R¦"‘ÈÑ¹ØŞŞn|$¹Q&€¦ID£Ñ£&ğäÉ“>BÈw‚0FoTD3æw_Jù~ww÷æ™	üôÓOf×R4ééé©M?~ÜLô:”R¦Şxã¥¦	üøãÍ‚Ÿìíím(omm5“?¥”©7ß|s©aïBš)&ûúúšJF›››Í’˜ìïï¿W—ÀúúzSÙ•2Ùßß¦Lº±±ñg)e3™|r``àvU…B¡iğ±Xì…j™µµµ¦IÄãñÛÏxôèÑW„†Àûƒƒƒÿ:¼ººú ß5j²RÊé·ŞzëÓÛ¶›	o‡ R‰Db©NO Ã0ÎyÈ0§Ö|Û¶G 44f‰Ä²²²Ò4øË—//Õé‰C„› bÚR¤”Ÿš$VVVš&A…W„hà:BÔ¯T’Rê{H)c nª¹«Úw—/_^B¤Ô^`ºB–——Ã 6¤”­5œuÀûÃÃÃuÁŸœœ†1 Bˆ¥BˆRó Á`ğz­5–——G |'¥ì¯é@?€|>?`¡	BÈ} ©d2yT§' ”BJy«ü”R(B%¯½öZMù|>¬0]©>•L&—( $“É%!Ä”R·ÿº/„¨^™Ê—œó[ZÚZÍ Àƒï}Hß;óNµõ’Éä‘"%¥¼_K1•L&—Ë¹\î¯ ¾ĞÅ€ÔèèèQxü:³é–––ùZr¹\X9¶ÖÄ£££«š‰¿U“ScccGuzâqeãS•ÌÆgûµŞO‡Ãáš$5‰ûccc7j–Ùl6 W¯^=ªÓ¤nßk0k—¢R…ç{­­­ßÔú¾®³öÄS Æïwâjš0ßÖÖ6İ,z†xJ1^“õ('„˜×N\í5oü,Â4›è‰C‘HÄ)ßHK´\º„yÎ9:;;§÷ööÀ9!d¼|®ÿ~wwwNgm ˆD"Î¹RŞÜİİ=µ!¥Œ±SÀ… „Ìwuu2‡ÎÎÎéH)Ç}9ÁŸJ¦F¹ÙÕÕõÉ¹hàÉ“']„¿H)cœóÒ†RJ”?W±mtvvNûB ¥,ıõ€ĞõÓööö× F?y‘x€ò%€¥t@ÌÒ/yu¯§§ç›:'så¯ö¬È~Øİİ½{&[[[wÕm¨^|0İÛÛ;ß`O<N)*[e§··÷zSQhccãÍÍÍ»Bˆ€PyyPe*F•Z£··w16]i-é¡Ÿ777ç677ï6¬õõõ9J©£Ô”!dº¿¿ş,!psss®”Yi,Óó5¸P(Ì))„*Ùd%›=ëèëë»¶¶¶6®¢ÜT¥=ÔßŞ¯P(Œ@<ŸÎ„
+…Â¸&:ÊpÎKU /¤:êš®$=Ïó,ÿ3c,]D,›Bì¨õÊ«aSÎù””r*Ï?zôè£S&dÛö\=sñ5%Ÿ%‰õ*½°e†ëyŞD ˜eŒMBæ¤”“¦ifjôÄêöV…èV^Wİ“R¾ deeeJ™Âx%s©ê‰Äµj@cRÊ9BÈ$¥ô@Ñà@J9 @À­FÀ·÷­ê«y!¨b€16 „(o<J—/*|\¼ÿ¼È4Íç¼]©¾À¤bÒuİ×+}ã×¨Â)oŠÊq1ÆÆı>óOğ‡1Æ¤”»RÊàáÃ‡5úáv!Ä?MÓÌ¸®û:cú03œó?>}ú´½JS¿.„ÀĞĞĞuÎùn¹ ı¸¤”çüïdyy94<<ìäóù»„P¥LkÆîğğğ‡õ$_,'ƒÁàÌ³gÏÒB˜¦yªv2ã"(„ÀÅ‹êôÄ! 7Õ‰F¹†µæg%'^ZZÒUæ”¯ÙX€‘‘‘Oòù|(™L:U:³´išß‡B¡ÇqÒşÚßçG.¥Ô
+ƒ='
+eê	eiiékßùR©–"„|œL&×I…tÎ'ıë£££5KZÇqúğ~!Ä»¼–ş©¤cš.cÌRë
+…6Ó---™*àC n
+!>§”ŞUëİıGÅLœËåş¤n?B\sIHãL2Æ,m*ºÒÔ1<–ì×4MíápØö$ZZZì*=qÀMJilttôZİR"›Í†®^½êÔi+SmmmÇÇÇ	ÎyJ`0ÏóN7çÁ0H)Áƒiš0œs´¶¶fR6›©Ø9zìîî¦MÓ<U»Bày(¥hkkË¥9ç§r
+cÁ`ú=cÌ6M³ÈKvttd-Gšù™ÕŠD"îşş~ÚgÓyBHÒó<ı\’°
+wv HpÎKï+5÷>³²$š!Ğt5æy?É%õ3c'''ğ<OÛ» áº®M)¥ÔV¡Ö.Ï9'''%2™ëÜ5°¿¿Ÿò</¡íÛ/mÆ8çyÃ0’*ÌÙ‘HdÁÿıŞŞ^JJ™àœÃ0ŒJÒ/ù!ä @û¥K—2ç¢ííí	^Ûq±X„”çéH“”RÚ”R”ƒW}ñ¥Ñh4£#•ÿ{]y*§oppnØÚÚJûC "ç!h‡Í÷ôôü§Ö:?ÿüs .]º”ÙÚÚJ¨|ÒkèÈTv2kÆq4uÏ¬Ó4Ã˜ Ë² „€v\=ê×ÀµY˜¦™ò<oÁq¨£ùç
+8Îù„çy-ê¡½ª
+…B"Û¾ç´iš. ‹Rê
+!¬Jõ¹?1Y–ÕFõ«Ç§ËûiË²JgM'''¸pázzz2ªÕMØ5à¯‡as*ÊXşÊPgUM¦¯¯/£üâIƒ&™P?7•ÀjA¸®[ÚÇ²,¸®‹ÕÕÕôúúzZ“¨é…B!­Kâ1M³d§şwü#NÄb1»P(¤•½»†aXåyBJ‰@ €¾¾¾Ìêêjš‚x<)i P($üaÌ4Íïu&Õ}±.Ê4½ùÚÚZ¢Y±XÌ^__O†± ¥tg4†b±Î9LÓ!Åb±´—ßÑMõ¢€ığáÃ´jLŞ€gÏ! ¼<æœ»ª}´ô»X,fŸEœó¹ÁÁÁíÿu•vZ­]Z×_[é¤I)…mÛ)BH‘¬¬¬¤|u{ÂßJúëy]»xçªîiç0ÖÖÖRÊç|Vi÷Z °ŠÅâ,¥tÂ4Í’_˜¦	Ó4!¥Ì{—¤”Ú¦¢]5ŞˆĞà}˜³,kç4”ælÕ®¶SJÇ3¶m§u™¡\×u ©p¶õaZ;¨ÿÈ\§}u??H$3x‰ceee€Å!d–2á·mJ®öY íRÊÆØ„_”ÒJi;¥CCCn>Ÿ¿ƒ—<ÊMó‡~€ÂÕî2®”ò!dRÿN| ~âo—R.‹E‘Ú‡††2ÅbqFÍsñŠF>Ÿ·òùüÄÛo¿1ã”‰3ÆşÍë—RÎøK‰Å‘‘[Fx7#¥<xğàAzddä•÷kÉdröÁƒé¡¡¡ŒçÊŒZ(¥ÃÃÃn¥F:Íf­\.7ßÈh
+K6›µ*4ÕÖ¯I ›ÍZ‹‹‹¹\n¬ã3ôÜt“Öt    IEND®B`‚PK   ÖY0FB÷ Å  `     read-me.txtVO9ı‰ï0J{JR5›¤\ÓvS @¹+:T¸B[N§Ê»ìúğÚ®í%ä">Õ}„ûb7Şİ„„BÑBü°gß¼y§×ûŞ×æFÂÒ‹s}®$381¨Î´,½Ğ*Ò6ÛÜè=¾¹±ÏœHA¨‰¶‰'#8ÏŒ,3¡@8Hua(7‘SásøµéEtP8¸EW|Fà”ö•Ì2åÁçÌÓÊ¾Gû-\¢uÄË¶M¬‹óg¼Õ0Ó%äìák‰Î/ã¬&”¢†Y9e>	'|¹÷&î÷5)æVë“eÑğÇ"¥=|XmfVd¹w Ô*¯¿iÅmÉ&1Z‹"‰ĞÕ"	*‡©L™jÍ€XQË|EÿVÑ‚$du°Eg¨z‘)š”°ÌYÁ2‘Eà)+’~¿‘n)S1PğÑá*ş"×”ÖhÚ*•%Tu¨@›
+&d$eP¨Ájûí,gCŠÀ-àNs-«Ã,É¤'+§µœ¾;%dNu\2búORÛ,¯2º€û}¹F”•>'ÔàŞÍ=b\#åT+.j;ì½‡ıCø¼wôéğ-ˆIe™=´…pÁ[Ô]TÀé¢™@”9Ú´ò,õë½"zë•ë
+mqõ*İo³´r_È`¶wz0ÉÚIù°çœGÃ.R‘0cbn±úCGüéèOBñJ×xs£ÿN?ş|ôşTöŞã¼²ë”6'¥J«²–ÓäH	ßéÎ77 wÚ–ëín”î¸ŞšÒzÚ\jµ”X 5¹@rw(,ÜÀE¡tº°ÃÁ ºuĞ·‡LÇ#Õ€2ØìşĞ“Ò7±×° ¶ŒâRICé†™h>{ZAaL	jv`¾¤®ŸÂ(ĞmèXô¥%Ó0¢µrêuĞµêÌ³µÎpæYÂö%SÙT‘ÉÍíşìî,šÂ29­<Ñ¿·÷©ˆ/^Ó·iÿÛĞ
+ÕõĞ¦5^¸õ'BG+YÏ£¥py¸»Öuÿ?š¾Ù?ÛYM£!òã…‘$§ësœ°Rú~,\«J‚Õc_“ÜÂxp6İnU^¦A`™¥»ßÿZ½'‰¾"c·v^÷ëĞÛ6n vwVš|ÛÓc¸î× *ÚÏ =ÑÚßI»Şø–— øvky|k'8å5ƒÜâd»õ¨B¡¥ŠBp*™sÛ­ ­ì†ašk¸Kı1ì’”E?áÖ/‹=PŒó3‰QêÜ˜´yvğáäøö÷~óú>­ânîÙœ^‹jèÆq…|œhïuoÌÕ¸ªñ0zşÃøz5ØœGgq"uz1
+îóøeÈñxå{LŠLÅô“ÌãTKmãG£Ñ¨Şôô>º0oãÒĞ0NÉóõGòP=„•V´knC7Ö†¥ôHÆƒht›Mœ“éí|1\9¼ÚâünğÛ	%œ‡í¸İß[b•.¯Âß³ô¨õÕ^ĞJ Í¬.§š/¶^ ´²ÓEÖOn•µ»ô± gÑ }®ªÕj~Q,]¹e\”.>Ê®Éq§‹*n8ôÖ¥ ¬7rÁ€."½Æd¥NÁ®zu}Ãg¡ÂzÌ®ÀÏk''¬í±ùMg¶ÂîÍH}Ñ…ğAèy¬|íê7»T	ê<¯Öê¥Öá[aP6ƒem™‹©×vö/PK     ¥N'F            
+                templates/PK     ¨N'F                        (   templates/default/PK     µN'F                        X   templates/default/img/PK    Åk˜BÙì»â‘  Œ  %             Œ   templates/default/img/back_to_top.pngPK    ÖY0FB÷ Å  `              `  read-me.txtPK      H      
